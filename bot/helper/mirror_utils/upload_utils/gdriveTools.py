@@ -443,6 +443,7 @@ class GoogleDriveHelper:
                 try:
                     msg += f'\n<b>Size: </b><code>{get_readable_file_size(int(meta.get("size")))}</code>'
                     msg += f'\n<b>Type: </b><code>{typ}</code>'
+                    msg += f'\n<b>☞ 💟From IU💟 @TheTelegramIU</b>'
                 except TypeError:
                     pass
                 if INDEX_URL is not None:
