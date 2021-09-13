@@ -139,6 +139,8 @@ def bot_help(update, context):
 
 /{BotCommands.ExecHelpCommand}: Get help for Executor module (Only Owner)
 
+/{BotCommands.MediaInfoCommand}: Get detailed info about replied media (Only for Telegram file)
+
 /{BotCommands.TsHelpCommand}: Get help for Torrent search module
 '''
 
@@ -171,6 +173,8 @@ def bot_help(update, context):
 
 /{BotCommands.PingCommand}: Check how long it takes to Ping the Bot
 
+/{BotCommands.MediaInfoCommand}: Get detailed info about replied media (Only for Telegram file)
+
 /{BotCommands.TsHelpCommand}: Get help for Torrent search module
 '''
 
@@ -199,6 +203,7 @@ botcmds = [
         (f'{BotCommands.PingCommand}','Ping the Bot'),
         (f'{BotCommands.RestartCommand}','Restart the bot [owner/sudo only]'),
         (f'{BotCommands.LogCommand}','Get the Bot Log [owner/sudo only]'),
+        (f'{BotCommands.MediaInfoCommand}','Get detailed info about replied media'),
         (f'{BotCommands.TsHelpCommand}','Get help for Torrent search module')
     ]
 
